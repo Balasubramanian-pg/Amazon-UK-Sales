@@ -52,7 +52,7 @@ The pipeline is executed in a series of sequential steps:
     *   Fabric's automatic **data lineage view** is utilized to track the flow of data from the initial source through every transformation step to the final report, ensuring transparency and governance.
 
 6.  **Reporting & Visualization:**
-    *   A comprehensive **3-page Power BI report** is created from the semantic model. The report is tailored for the Customer Success team and delivers insights through interactive visuals. The report includes:
-        *   **Page 1: Sales Performance Overview:** High-level KPIs, sales trends over time, and regional performance maps.
-        *   **Page 2: Product Analysis:** Deep dive into best-selling products, category performance, and profitability analysis.
-        *   **Page 3: Customer Insights:** Analysis of customer segments, order patterns, and key account activity.
+    *   A comprehensive ** Power BI report** is created from the semantic model. The report is tailored for the Customer Success team and delivers insights through interactive visuals. The report includes:
+        *   **KPI 1: Review Performance Overview:** High-level KPIs, average review trends over time, and best seller category analysis.
+        *   **KPI 2: Number of reviews & Pricing :** Deep dive into best-selling products, category performance, and pricing analysis.
+        *   **KPI 3: Purchased Last Month Insights:** Analysis of products segments, order patterns, and key review activity.
