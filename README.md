@@ -29,7 +29,7 @@ The project is built on a **translytical data architecture**, which combines tra
 
 The pipeline is executed in a series of sequential steps:
 
-1.  **Data Ingestion:**
+1.  [**Data Ingestion:**](https://github.com/Balasubramanian-pg/Amazon-UK-Sales/tree/main/0.%20Data%20Ingestion)
     *   Data is programmatically sourced from a Kaggle dataset using the **Kaggle API** within a Fabric **PySpark Notebook**. This ensures a repeatable and automated ingestion process.
 
 2.  **Exploratory Data Analysis (EDA) & Transformation:**
