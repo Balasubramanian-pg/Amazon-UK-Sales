@@ -40,9 +40,9 @@ The pipeline is executed in a series of sequential steps:
 
 4.  **Database Development:**
     *   Using the **SQL Analytics Endpoint**, a relational schema is developed on top of the warehouse data. To encapsulate business logic and simplify data access, the following T-SQL objects were created:
-        *   [**5 Stored Procedures:**](https://github.com/Balasubramanian-pg/Amazon-UK-Sales/tree/main/3.%20Functions) For complex operations like data aggregation and transformations.
+        *   [**5 Stored Procedures:**](https://github.com/Balasubramanian-pg/Amazon-UK-Sales/tree/main/3.%20Stored Procedures) For complex operations like data aggregation and transformations.
         *   **5 Views:** To provide simplified, pre-joined, and secure access to the underlying tables.
-        *   **5 Functions:** For reusable calculations and business logic.
+        *   [**5 Functions:**](https://github.com/Balasubramanian-pg/Amazon-UK-Sales/tree/main/3.%20Functions) For reusable calculations and business logic.
 
 5.  **Semantic Modeling & Lineage:**
     *   A **Power BI Semantic Model** is built directly on the Fabric Warehouse. This model defines table relationships, hierarchies, and key business metrics using DAX (Data Analysis Expressions).
