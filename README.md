@@ -41,7 +41,7 @@ The pipeline is executed in a series of sequential steps:
 4.  **Database Development:**
     *   Using the **SQL Analytics Endpoint**, a relational schema is developed on top of the warehouse data. To encapsulate business logic and simplify data access, the following T-SQL objects were created:
         *   [**5 Stored Procedures:**](https://github.com/Balasubramanian-pg/Amazon-UK-Sales/tree/main/2.%20Stored%20Procedures) For complex operations like data aggregation and transformations.
-        *   **5 Views:** To provide simplified, pre-joined, and secure access to the underlying tables.
+        *   [**5 Views:**](https://github.com/Balasubramanian-pg/Amazon-UK-Sales/tree/main/1.%20Views) To provide simplified, pre-joined, and secure access to the underlying tables.
         *   [**5 Functions:**](https://github.com/Balasubramanian-pg/Amazon-UK-Sales/tree/main/3.%20Functions) For reusable calculations and business logic.
 
 5.  **Semantic Modeling & Lineage:**
