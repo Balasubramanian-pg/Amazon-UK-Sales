@@ -46,6 +46,9 @@ The pipeline is executed in a series of sequential steps:
 
 5.  **Semantic Modeling & Lineage:**
     *   A **Power BI Semantic Model** is built directly on the Fabric Warehouse. This model defines table relationships, hierarchies, and key business metrics using DAX (Data Analysis Expressions).
+      
+   ![image](https://github.com/user-attachments/assets/e65e8a30-d7f7-47c6-908a-207607ec7963)
+
     *   Fabric's automatic **data lineage view** is utilized to track the flow of data from the initial source through every transformation step to the final report, ensuring transparency and governance.
 
 6.  **Reporting & Visualization:**
