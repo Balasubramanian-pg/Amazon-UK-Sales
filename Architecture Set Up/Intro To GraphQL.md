@@ -2,7 +2,6 @@
 
 GraphQL in Microsoft Fabric is a way to expose your tables and views (usually stored in a Lakehouse) as an API endpoint. You can use it to fetch data using GraphQL queries instead of SQL. The main use case is building dashboards, prototypes, or lightweight apps that need flexible data access without writing complex backends.
 
----
 
 ## Why Use It?
 
@@ -10,7 +9,6 @@ GraphQL in Microsoft Fabric is a way to expose your tables and views (usually st
 * It’s good for building React or Power Apps frontends.
 * You don’t need to write a REST API — it’s auto-generated.
 
----
 
 ## What You Need First
 
@@ -18,7 +16,6 @@ GraphQL in Microsoft Fabric is a way to expose your tables and views (usually st
 2. Access to the **GraphQL Explorer** inside Fabric (still in preview as of 2024).
 3. A working dataset — clean column names, no null keys, etc.
 
----
 
 ## What It Looks Like
 
@@ -55,12 +52,9 @@ query {
 
 You can sort, paginate, and even use `OR`, `AND`, and null checks.
 
----
 
 ## When You Shouldn’t Use It
 
 * If your logic is very complex (joins, custom aggregations).
 * If your data isn’t cleaned or modeled properly.
 * If you need full control over the API (GraphQL in Fabric is still opinionated).
-
----
